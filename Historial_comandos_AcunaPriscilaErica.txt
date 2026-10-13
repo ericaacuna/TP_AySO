@@ -1,0 +1,39 @@
+cd ~/repogit/TP_AySO
+git config --global user.email "acuna.345608@gamil.com"
+git config --global user.email "acuna.345608@gmail.com"
+git config --global user.name "ericaacuna"
+git commmit -m "ADD: agregado 1er ejercicio sobre pass_usuario.txt"
+git commit -m "ADD: agregado 1er ejercicio sobre pass_usuario.txt" 
+git status
+ls -la ~ > permisos.txt
+cat permisos.txt
+echo "ls -la ~ > permisos.txt" >> permisos.txt
+git status
+git add permisos.txt
+git commit -m "ADD: Añadiendo archivo permisos"
+git status
+grep -v root /etc/passwd | head -10 > lista_ordenada
+cat lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuario ordenada"
+cat << E0F >> README.md
+Alumno: Priscila Erica Acuña
+Division: 111
+Turno: Mañana
+E0F
+
+cat README.md
+git add README.md
+git commit -m "docs: Agregar informacion del alumno al README"
+cd ~
+mkdir -p ~/universidad/alumnos/legajos{1..15} ~/universidad/profesores/legajos{1..5}
+tree ~/universidad/ 2>/dev/null || find ~/universidad/ | sort
+tree universidad/universidad/
+cd ~/repogit/TP_AySO
+pwd
+echo 'mkdir -p ~/universidad/alumnos/legajos{1..15} ~/universidad/profesores/legajos{1..5}' > script_dir.sh
+cat script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
