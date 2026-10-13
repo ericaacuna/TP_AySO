@@ -1,0 +1,14 @@
+total 44
+drwxr-x--- 5 vagrant vagrant 4096 Oct 13 16:57 .
+drwxr-xr-x 3 root    root    4096 Oct 23  2025 ..
+-rw-r--r-- 1 vagrant vagrant  220 Jan  6  2022 .bash_logout
+-rw-r--r-- 1 vagrant vagrant 3771 Jan  6  2022 .bashrc
+drwx------ 2 vagrant vagrant 4096 Oct 23  2025 .cache
+-rw-rw-r-- 1 vagrant vagrant   58 Oct 13 16:57 .gitconfig
+-rw------- 1 vagrant vagrant  130 Oct 13 14:52 .lesshst
+-rw-r--r-- 1 vagrant vagrant  807 Jan  6  2022 .profile
+drwxrwxr-x 3 vagrant vagrant 4096 Oct 13 14:32 repogit
+drwx------ 2 vagrant vagrant 4096 Oct 13 14:32 .ssh
+-rw-r--r-- 1 vagrant vagrant    0 Oct 23  2025 .sudo_as_admin_successful
+-rw-r--r-- 1 vagrant vagrant    5 Oct 23  2025 .vbox_version
+ls -la ~ > permisos.txt
